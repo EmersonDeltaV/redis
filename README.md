@@ -1,5 +1,24 @@
-# redis
-This repository holds the Dockerfile image used to build the redis application currently available the DeltaV Edge Applications Marketplace. Redis (Remote Dictionary Server) is an open-source, in-memory data structure store used as a database, cache, and message broker. It supports various data structures such as strings, hashes, lists, sets, sorted sets, bitmaps, hyperloglogs, and geospatial indexes.
+# Redis
+
+## Important Information
+
+This repository contains Emerson-authored deployment and integration examples for an open-source application that can run on DeltaV Edge. The application is not part of DeltaV Edge, is not required for its operation, and does not modify its functionality. All repository contents are provided as examples only. Users are responsible for securing, validating, testing, and maintaining configurations before production use.
+
+## Relationship to DeltaV Edge
+
+Redis is an optional third-party in-memory data store and caching platform.
+
+Redis may be used by customers or optional applications to support caching, messaging, queueing, session management, data storage, and related application workloads.
+
+Redis is not part of the DeltaV Edge architecture, is not required for DeltaV Edge operation, and does not participate in DeltaV Edge platform operations.
+
+## About Redis
+
+Redis is a high-performance open-source in-memory data store commonly used for caching, messaging, session storage, queueing, and real-time application workloads.
+
+Redis provides fast data access and supports a variety of data structures, making it suitable for a broad range of application, analytics, and integration scenarios.
+
+When used alongside DeltaV Edge, Redis can serve as an optional caching, messaging, or application data platform for applications and services that utilize operational data made available through supported DeltaV Edge integrations and connected data sources.
 
 ## Features
 - **In-Memory Storage**: Redis stores data in memory, providing extremely fast read and write operations.
